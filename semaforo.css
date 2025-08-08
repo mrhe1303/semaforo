@@ -1,0 +1,44 @@
+.vara {
+    background-color: black;
+    width: 20px;
+    height: 200px;
+    justify-self: center;
+}
+.semaforo {
+    background-color: black;
+    width: 300px;
+    height: 650px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.luz {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.luz1 {
+    background-color: rgb(247, 155, 155);
+}
+.luz1-activa {
+    background-color: rgb(165, 1, 1);
+    box-shadow: 0 0 20px 10px rgba(165, 1, 1, 0.3);
+}
+.luz2 {
+    background-color: rgb(255, 255, 157);
+}
+.luz2-activa {
+    background-color: rgb(202, 202, 0);
+    box-shadow: 0 0 20px 10px rgba(202, 202, 0, 0.3);
+}
+.luz3 {
+    background-color: rgb(72, 128, 72);
+}
+.luz3-activa {
+    background-color: green;
+    box-shadow: 0 0 20px 10px rgba(72, 128, 72, 0.3);
+}
